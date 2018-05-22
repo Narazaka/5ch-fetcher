@@ -1,13 +1,11 @@
-# 2ch-fetcher
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNarazaka%2F2ch-fetcher.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FNarazaka%2F2ch-fetcher?ref=badge_shield)
+# 5ch-fetcher
 
-
-2ch fetcher
+5ch fetcher
 
 ## Install
 
 ```bash
-npm install 2ch-fetcher
+npm install 5ch-fetcher
 ```
 
 ## Usage
@@ -16,7 +14,7 @@ npm install 2ch-fetcher
 import { BBSMenu, Thread } from "./";
 
 async function hierarchal() {
-    const menu = new BBSMenu(); // default url is bbsmenu of 2ch.sc
+    const menu = new BBSMenu(); // default url is bbsmenu of 5ch.net
     const boards = await menu.fetchBoards();
     console.log(boards.names);
     const threads = await boards.board("河川・ダム等").fetchThreads();
@@ -42,6 +40,3 @@ hierarchal().then(single);
 ## License
 
 This is released under [MIT License](https://narazaka.net/license/MIT?2017)
-
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNarazaka%2F2ch-fetcher.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FNarazaka%2F2ch-fetcher?ref=badge_large)

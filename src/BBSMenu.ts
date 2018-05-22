@@ -23,7 +23,7 @@ export class BBSMenu {
 
     readonly url: string;
 
-    constructor(url = "http://2ch.sc/bbsmenu.html") {
+    constructor(url = "http://5ch.net/bbsmenu.html") {
         this.url = url;
     }
 

@@ -1,7 +1,7 @@
 {
-  "name": "2ch-fetcher",
+  "name": "5ch-fetcher",
   "version": "2.1.2",
-  "description": "2ch fetcher",
+  "description": "5ch fetcher",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
