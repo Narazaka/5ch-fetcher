@@ -38,7 +38,11 @@ function parsePost($elem: Cheerio) {
     )
         .toDate();
     const id = $elem.find(".uid").text().replace(/^ID:/, "");
-    const body = $elem.find(".message").text();
+    const body = decode($elem.find(".message .escaped").html() as string);
 
     return new Post({index, name, email, date, id, body});
+}
+
+function decode(str: string) {
+    return str.replace(/&#x([^;]+);/g, (_, part) => String.fromCharCode(parseInt(part, 16)));
 }
