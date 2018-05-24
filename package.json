@@ -1,6 +1,6 @@
 {
   "name": "5ch-fetcher",
-  "version": "2.1.2",
+  "version": "1.0.0",
   "description": "5ch fetcher",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,8 +13,9 @@
     "lint": "tslint -p ."
   },
   "author": "narazaka",
-  "license": "MIT",
+  "license": "Zlib",
   "devDependencies": {
+    "@types/cheerio": "^0.22.7",
     "@types/iconv-lite": "^0.0.1",
     "@types/moment-timezone": "^0.5.2",
     "@types/request-promise-native": "^1.0.10",
@@ -23,11 +24,9 @@
     "typescript": "^2.6.2"
   },
   "dependencies": {
-    "chardet": "^0.4.2",
-    "iconv-lite": "^0.4.19",
+    "2ch-fetcher": "^2.3.0",
+    "cheerio": "^1.0.0-rc.2",
     "moment": "^2.19.3",
-    "moment-timezone": "^0.5.14",
-    "request": "^2.83.0",
-    "request-promise-native": "^1.0.5"
+    "moment-timezone": "^0.5.14"
   }
 }
