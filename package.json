@@ -19,7 +19,7 @@
     "@types/iconv-lite": "^0.0.1",
     "@types/moment-timezone": "^0.5.2",
     "@types/request-promise-native": "^1.0.10",
-    "rimraf": "^2.6.2",
+    "rimraf": "^3.0.2",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2"
   },
