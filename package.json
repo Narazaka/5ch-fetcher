@@ -21,7 +21,7 @@
     "@types/request-promise-native": "^1.0.10",
     "rimraf": "^2.6.2",
     "tslint": "^5.8.0",
-    "typescript": "^2.6.2"
+    "typescript": "^3.9.2"
   },
   "dependencies": {
     "2ch-fetcher": "^2.3.0",
